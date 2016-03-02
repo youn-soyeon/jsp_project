@@ -24,10 +24,11 @@
 		&lt;c:catch&gt;로 잡아낸 오류 :
 		<c:out value="${err }" />
 	</h3>
-
+<!--  
 	<c:if test="${5<10}">
 		<h3>5는 10보다 작다.</h3>
 	</c:if>
+	
 	<c:if test="${6+3==9 }">
 		<h3>6+3은 9이다.</h3>
 	</c:if>
@@ -40,5 +41,6 @@
 			<h3>5+10은 50이 아니다.</h3>
 		</c:otherwise>
 	</c:choose>
+	-->
 </body>
 </html>

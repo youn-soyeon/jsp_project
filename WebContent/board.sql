@@ -30,6 +30,7 @@ primary key(board_num)
 );
 
 select * from memberboard;
+select * from board;
 
 create table memberlist(
 member_id varchar2(15),
@@ -44,5 +45,13 @@ primary key(member_id)
 select * from memberlist;
 --멤버테이블 이미 존재해서 바꿔야함
 --아직 생성 안함
+
+
 alter table memberboard add constraint pk_board_id foreign key(board_id)
 references memberlist(member_id);
+
+
+
+
+
+
